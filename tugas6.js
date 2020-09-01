@@ -6,13 +6,15 @@ Saat user melakukan registrasi simpan data didalam Array
 Tampilkan data setiap user melakukan registrasi
 Saat password ditampilkan, ganti dengan string yang berbeda. Gunakan replace method.*/
 
-let username = [];
-let password = [];
+function myFunction6() {
+  let username = [];
+  let password = [];
 
-username.push(prompt("Username (min. 6 karakter)"));
-password.push(prompt("Username (min. 8 karakter)"));
+  username.push(prompt("Username (min. 6 karakter)"));
+  password.push(prompt("Username (min. 8 karakter)"));
 
-let changePassword = password.replace(password, "krisnafi");
+  let changePassword = password.replace(password, "krisnafi");
 
-alert(username);
-alert(changePassword);
+  alert(username);
+  alert(changePassword);
+}

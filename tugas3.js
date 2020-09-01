@@ -3,7 +3,9 @@ Buat sebuah program untuk membuat Array baru dari hasil perkalian array sebelumn
 Tampilkan pada console.log
 */
 
-let arr = [3, 5, 7, 9, 11];
-newArr = arr.map((number) => {
-  console.log(number * 5);
-});
+function myFunction3() {
+  let arr = [3, 5, 7, 9, 11];
+  newArr = arr.map((number) => {
+    console.log(number * 5);
+  });
+}
